@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>price</key>
+		<string>$35-$75</string>
+		<key>artist</key>
+		<string>Bill Frisell</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$45-$65</string>
+		<key>artist</key>
+		<string>Keyshia Cole</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$45-$65</string>
+		<key>artist</key>
+		<string>Chrisette Michele</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$45-$65</string>
+		<key>artist</key>
+		<string>Mateo</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$15-$93</string>
+		<key>artist</key>
+		<string>Andras Schiff</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$52.50</string>
+		<key>artist</key>
+		<string>Queensryche</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$52.50</string>
+		<key>artist</key>
+		<string>The Voodoos</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$35-$75</string>
+		<key>artist</key>
+		<string>Katchafire</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>$35-$75</string>
+		<key>artist</key>
+		<string>Maoli</string>
+	</dict>
+    <dict>
+		<key>price</key>
+		<string>free</string>
+		<key>artist</key>
+		<string>Sila</string>
+	</dict>
+</array>
+</plist>
