@@ -30,6 +30,8 @@
 - (void)encodeRestorableStateWithCoder:(NSCoder *)coder {
     
     [coder encodeObject:self.ticket[@"id"] forKey:@"ticketId"];
+    
+    [super encodeRestorableStateWithCoder:coder];
 }
 
 - (void)decodeRestorableStateWithCoder:(NSCoder *)coder {
@@ -42,11 +44,6 @@
     MyTicketController* vc = nil;
     
     UIStoryboard* storyboard = [coder decodeObjectForKey:UIStateRestorationViewControllerStoryboardKey];
-    
-    if (!storyboard) {
-        // bug???
-        storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-    }
     
     if (storyboard) {
         
