@@ -19,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    //NSAssert(self.ticket!=nil, @"ticket property is not supposed to be nil");
+    NSAssert(self.ticket!=nil, @"ticket property is not supposed to be nil");
     
     self.restorationClass = [self class];
     

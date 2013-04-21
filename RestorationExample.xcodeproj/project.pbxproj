@@ -65,6 +65,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7D3EF517248D58004C2D77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BF08CA3172476DB007F2C30 /* MyTicketsController.h */,
+				4BF08CA4172476DB007F2C30 /* MyTicketsController.m */,
+				4BF08C9D172476D1007F2C30 /* BuyTicketsController.h */,
+				4BF08C9E172476D1007F2C30 /* BuyTicketsController.m */,
+				4BF08C9A172471CE007F2C30 /* MyTicketController.h */,
+				4BF08C9B172471CE007F2C30 /* MyTicketController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4B7D3EF617248D60004C2D77 /* PList */ = {
+			isa = PBXGroup;
+			children = (
+				4BF08CA2172476DB007F2C30 /* MyTickets.plist */,
+				4BF08C9F172476D1007F2C30 /* Concerts.plist */,
+			);
+			name = PList;
+			sourceTree = "<group>";
+		};
+		4B7D3EF717248D71004C2D77 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4BF08CA5172476DB007F2C30 /* qrcode.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		4BF08C6B17247163007F2C30 = {
 			isa = PBXGroup;
 			children = (
@@ -95,19 +125,13 @@
 		4BF08C7D17247163007F2C30 /* RestorationExample */ = {
 			isa = PBXGroup;
 			children = (
-				4BF08CA2172476DB007F2C30 /* MyTickets.plist */,
-				4BF08CA3172476DB007F2C30 /* MyTicketsController.h */,
-				4BF08CA4172476DB007F2C30 /* MyTicketsController.m */,
-				4BF08CA5172476DB007F2C30 /* qrcode.png */,
-				4BF08C9D172476D1007F2C30 /* BuyTicketsController.h */,
-				4BF08C9E172476D1007F2C30 /* BuyTicketsController.m */,
-				4BF08C9F172476D1007F2C30 /* Concerts.plist */,
+				4B7D3EF717248D71004C2D77 /* Image */,
+				4B7D3EF617248D60004C2D77 /* PList */,
+				4B7D3EF517248D58004C2D77 /* Controller */,
 				4BF08C8617247163007F2C30 /* AppDelegate.h */,
 				4BF08C8717247163007F2C30 /* AppDelegate.m */,
 				4BF08C8F17247163007F2C30 /* MainStoryboard.storyboard */,
 				4BF08C7E17247163007F2C30 /* Supporting Files */,
-				4BF08C9A172471CE007F2C30 /* MyTicketController.h */,
-				4BF08C9B172471CE007F2C30 /* MyTicketController.m */,
 			);
 			path = RestorationExample;
 			sourceTree = "<group>";
