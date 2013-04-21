@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--My Tickets Controller - Root View Controller-->
+        <!--My Tickets Controller - My Tickets-->
         <scene sceneID="5Ev-Gq-ebq">
             <objects>
                 <tableViewController storyboardIdentifier="MyTicketsController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cDa-3j-Tuh" customClass="MyTicketsController" sceneMemberID="viewController">
@@ -13,16 +13,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="1cR-MZ-1a4"/>
+                    <navigationItem key="navigationItem" title="My Tickets" id="1cR-MZ-1a4"/>
                     <connections>
-                        <segue destination="Qh9-eV-Ld2" kind="push" id="mwZ-3A-C5V"/>
+                        <segue destination="Qh9-eV-Ld2" kind="push" identifier="ShowMyTicketController" id="mwZ-3A-C5V"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1vR-nH-aS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="891" y="543"/>
         </scene>
-        <!--My Ticket Controller-->
+        <!--My Ticket Controller - Ticket-->
         <scene sceneID="tzW-7m-0c4">
             <objects>
                 <viewController storyboardIdentifier="MyTicketController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qh9-eV-Ld2" customClass="MyTicketController" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="q8j-Ro-VeI"/>
+                    <navigationItem key="navigationItem" title="Ticket" id="q8j-Ro-VeI"/>
                     <connections>
                         <outlet property="artistLabel" destination="vlY-5K-9li" id="Vx7-c8-Qwc"/>
                         <outlet property="qrCodeImageView" destination="3dx-7c-IyL" id="jvO-DL-Rfg"/>
@@ -54,11 +54,11 @@
             </objects>
             <point key="canvasLocation" x="1300" y="543"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - My Tickets-->
         <scene sceneID="o1e-kp-7hg">
             <objects>
                 <navigationController storyboardIdentifier="RightTabController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0QY-B3-RbA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3OE-fV-7rC"/>
+                    <tabBarItem key="tabBarItem" title="My Tickets" id="3OE-fV-7rC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KXc-KK-5gq">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -89,7 +89,7 @@
             </objects>
             <point key="canvasLocation" x="-77" y="233"/>
         </scene>
-        <!--Buy Tickets Controller - Root View Controller-->
+        <!--Buy Tickets Controller - Buy Tickets-->
         <scene sceneID="Ak4-sH-e2p">
             <objects>
                 <tableViewController storyboardIdentifier="BuyTicketsController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uLb-hS-7hC" customClass="BuyTicketsController" sceneMemberID="viewController">
@@ -98,17 +98,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="vcI-5w-94b"/>
+                    <navigationItem key="navigationItem" title="Buy Tickets" id="vcI-5w-94b"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dgz-HD-dOX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="855" y="-127"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Buy Tickets-->
         <scene sceneID="Hq1-7O-gC8">
             <objects>
                 <navigationController storyboardIdentifier="LeftTabController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pNb-s7-9L4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="OQE-ko-bXb"/>
+                    <tabBarItem key="tabBarItem" title="Buy Tickets" id="OQE-ko-bXb"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gZB-6B-Q8u">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
